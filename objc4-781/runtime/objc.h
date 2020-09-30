@@ -38,6 +38,12 @@
 typedef struct objc_class *Class;
 
 /// Represents an instance of a class.
+
+// 鼻祖
+// 百度面试题：OC对象与objc_object是个什么关系？
+// OC对象可以说是以objc_object为最初原型创建的
+// 所以objc_class继承了objc_object
+// 这也就很好解释所有的OC类都有一个isa
 struct objc_object {
     Class _Nonnull isa  OBJC_ISA_AVAILABILITY;
 };

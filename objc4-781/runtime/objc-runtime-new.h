@@ -696,6 +696,8 @@ struct protocol_list_t {
     }
 };
 
+
+// clean memory
 struct class_ro_t {
     uint32_t flags;
     uint32_t instanceStart;
@@ -709,6 +711,8 @@ struct class_ro_t {
     const char * name;
     method_list_t * baseMethodList;
     protocol_list_t * baseProtocols;
+    
+    // 成员变量
     const ivar_list_t * ivars;
 
     const uint8_t * weakIvarLayout;
@@ -1085,6 +1089,7 @@ public:
         return extAlloc(ro, true);
     }
 
+    // 获取 clean memory 就是一些必须要占用的内存
     const class_ro_t *ro() const {
         auto v = get_ro_or_rwe();
         if (slowpath(v.is<class_rw_ext_t *>())) {
@@ -1102,6 +1107,7 @@ public:
         }
     }
 
+    // 获取实例方法列表
     const method_array_t methods() const {
         auto v = get_ro_or_rwe();
         if (v.is<class_rw_ext_t *>()) {
@@ -1110,7 +1116,7 @@ public:
             return method_array_t{v.get<const class_ro_t *>()->baseMethods()};
         }
     }
-
+    // 获取属性列表
     const property_array_t properties() const {
         auto v = get_ro_or_rwe();
         if (v.is<class_rw_ext_t *>()) {
@@ -1119,7 +1125,7 @@ public:
             return property_array_t{v.get<const class_ro_t *>()->baseProperties};
         }
     }
-
+    // 获取协议列表
     const protocol_array_t protocols() const {
         auto v = get_ro_or_rwe();
         if (v.is<class_rw_ext_t *>()) {
@@ -1240,13 +1246,16 @@ public:
     }
 };
 
-
+// 最新的类结构
 struct objc_class : objc_object {
-    // Class ISA;
-    Class superclass;
+    // Class ISA;        // 继承自objc_object得来的
+    Class superclass;    // 父类cls
+    // 缓存
     cache_t cache;             // formerly cache pointer and vtable
+    // bits 存储 method  property  ivar
     class_data_bits_t bits;    // class_rw_t * plus custom rr/alloc flags
 
+    // 所有的data
     class_rw_t *data() const {
         return bits.data();
     }

@@ -1602,6 +1602,9 @@ struct objc_class : objc_object {
 
         size_t size = alignedInstanceSize() + extraBytes;
         // CF requires all objects be at least 16 bytes.
+        // 至少会开辟16byte的内存空间
+        // 所以如果面试题问:一个OC对象指向的内存空间多大？
+        // 此时你就可以回答：至少16byte
         if (size < 16) size = 16;
         return size;
     }

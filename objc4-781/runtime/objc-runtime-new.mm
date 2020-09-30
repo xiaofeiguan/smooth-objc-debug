@@ -7542,7 +7542,7 @@ _class_createInstanceFromZone(Class cls, size_t extraBytes, void *zone,
         return nil;
     }
 
-    // 3: ?
+    // 3: 将isa与自身类关联
     if (!zone && fast) {
         obj->initInstanceIsa(cls, hasCxxDtor);
     } else {
@@ -7552,6 +7552,7 @@ _class_createInstanceFromZone(Class cls, size_t extraBytes, void *zone,
     }
 
     if (fastpath(!hasCxxCtor)) {
+        // 返回指向该段内存的指针
         return obj;
     }
 

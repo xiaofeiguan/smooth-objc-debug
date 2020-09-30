@@ -230,7 +230,8 @@ objc_object::initIsa(Class cls, bool nonpointer, bool hasCxxDtor)
     } else {
         ASSERT(!DisableNonpointerIsa);
         ASSERT(!cls->instancesRequireRawIsa());
-
+        
+        // newisa()构造函数初始化创建isa
         isa_t newisa(0);
 
 #if SUPPORT_INDEXED_ISA
@@ -244,7 +245,10 @@ objc_object::initIsa(Class cls, bool nonpointer, bool hasCxxDtor)
         newisa.bits = ISA_MAGIC_VALUE;
         // isa.magic is part of ISA_MAGIC_VALUE
         // isa.nonpointer is part of ISA_MAGIC_VALUE
+        
         newisa.has_cxx_dtor = hasCxxDtor;
+        // 将类cls >> 3 赋值给isa
+        // 这样就建立起了isa与cls的联系， isa里面的shiftcls存储的就是类信息
         newisa.shiftcls = (uintptr_t)cls >> 3;
 #endif
 

@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "3EB286B8-47CE-4BC4-9AAD-0421FBE7D5F1"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A3A017DA-A561-4A77-8E71-17DA4CB87584"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "runtime/NSObject.mm"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2321"
+            endingLineNumber = "2321"
+            landmarkName = "+alloc"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2B7C5EC2-66DB-430A-9867-E78D3AFFAD64"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "runtime/NSObject.mm"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1723"
+            endingLineNumber = "1723"
+            landmarkName = "_objc_rootAlloc(cls)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B8E76421-CB6E-4F53-87A0-96CC59750127"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "runtime/NSObject.mm"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1730"
+            endingLineNumber = "1730"
+            landmarkName = "objc_alloc(cls)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A3E579D2-0A32-4747-9DAE-CFB83F9A29D9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "runtime/NSObject.mm"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1706"
+            endingLineNumber = "1706"
+            landmarkName = "callAlloc(cls, checkNil)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "A3E579D2-0A32-4747-9DAE-CFB83F9A29D9 - 652961bd9fc3d209"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_objc_rootAlloc"
+                  moduleName = "libobjc.A.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xiaofeiguan/Desktop/smoothv/iOS-Programmer/19-%E8%BF%9B%E9%98%B6%E6%95%99%E7%A8%8B/iOS%E9%80%BB%E8%BE%91%E6%95%99%E8%82%B2/iOS%E5%A4%A7%E7%A5%9E%E7%8F%AD/01-alloc%E4%B8%8Einit/01--%E8%AF%BE%E5%A0%82%E4%BB%A3%E7%A0%81/002-objc4-781%E6%BA%90%E7%A0%81/runtime/NSObject.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1706"
+                  endingLineNumber = "1706"
+                  offsetFromSymbolStart = "126">
+               </Location>
+               <Location
+                  uuid = "A3E579D2-0A32-4747-9DAE-CFB83F9A29D9 - a627b39c1a810601"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "objc_alloc"
+                  moduleName = "libobjc.A.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xiaofeiguan/Desktop/smoothv/iOS-Programmer/19-%E8%BF%9B%E9%98%B6%E6%95%99%E7%A8%8B/iOS%E9%80%BB%E8%BE%91%E6%95%99%E8%82%B2/iOS%E5%A4%A7%E7%A5%9E%E7%8F%AD/01-alloc%E4%B8%8Einit/01--%E8%AF%BE%E5%A0%82%E4%BB%A3%E7%A0%81/002-objc4-781%E6%BA%90%E7%A0%81/runtime/NSObject.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1706"
+                  endingLineNumber = "1706"
+                  offsetFromSymbolStart = "126">
+               </Location>
+               <Location
+                  uuid = "A3E579D2-0A32-4747-9DAE-CFB83F9A29D9 - 6d66d1d595f87641"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "objc_allocWithZone"
+                  moduleName = "libobjc.A.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xiaofeiguan/Desktop/smoothv/iOS-Programmer/19-%E8%BF%9B%E9%98%B6%E6%95%99%E7%A8%8B/iOS%E9%80%BB%E8%BE%91%E6%95%99%E8%82%B2/iOS%E5%A4%A7%E7%A5%9E%E7%8F%AD/01-alloc%E4%B8%8Einit/01--%E8%AF%BE%E5%A0%82%E4%BB%A3%E7%A0%81/002-objc4-781%E6%BA%90%E7%A0%81/runtime/NSObject.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1706"
+                  endingLineNumber = "1706"
+                  offsetFromSymbolStart = "126">
+               </Location>
+               <Location
+                  uuid = "A3E579D2-0A32-4747-9DAE-CFB83F9A29D9 - deb08043a840eb39"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "objc_alloc_init"
+                  moduleName = "libobjc.A.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xiaofeiguan/Desktop/smoothv/iOS-Programmer/19-%E8%BF%9B%E9%98%B6%E6%95%99%E7%A8%8B/iOS%E9%80%BB%E8%BE%91%E6%95%99%E8%82%B2/iOS%E5%A4%A7%E7%A5%9E%E7%8F%AD/01-alloc%E4%B8%8Einit/01--%E8%AF%BE%E5%A0%82%E4%BB%A3%E7%A0%81/002-objc4-781%E6%BA%90%E7%A0%81/runtime/NSObject.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1706"
+                  endingLineNumber = "1706"
+                  offsetFromSymbolStart = "126">
+               </Location>
+               <Location
+                  uuid = "A3E579D2-0A32-4747-9DAE-CFB83F9A29D9 - 9a5ce6191fd72e16"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "objc_opt_new"
+                  moduleName = "libobjc.A.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xiaofeiguan/Desktop/smoothv/iOS-Programmer/19-%E8%BF%9B%E9%98%B6%E6%95%99%E7%A8%8B/iOS%E9%80%BB%E8%BE%91%E6%95%99%E8%82%B2/iOS%E5%A4%A7%E7%A5%9E%E7%8F%AD/01-alloc%E4%B8%8Einit/01--%E8%AF%BE%E5%A0%82%E4%BB%A3%E7%A0%81/002-objc4-781%E6%BA%90%E7%A0%81/runtime/NSObject.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1706"
+                  endingLineNumber = "1706"
+                  offsetFromSymbolStart = "185">
+               </Location>
+               <Location
+                  uuid = "A3E579D2-0A32-4747-9DAE-CFB83F9A29D9 - 5e588ec1ea6e9b47"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[NSObject new]"
+                  moduleName = "libobjc.A.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xiaofeiguan/Desktop/smoothv/iOS-Programmer/19-%E8%BF%9B%E9%98%B6%E6%95%99%E7%A8%8B/iOS%E9%80%BB%E8%BE%91%E6%95%99%E8%82%B2/iOS%E5%A4%A7%E7%A5%9E%E7%8F%AD/01-alloc%E4%B8%8Einit/01--%E8%AF%BE%E5%A0%82%E4%BB%A3%E7%A0%81/002-objc4-781%E6%BA%90%E7%A0%81/runtime/NSObject.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1706"
+                  endingLineNumber = "1706"
+                  offsetFromSymbolStart = "130">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D3BA4AAA-3485-4B4A-B3FA-7DFCA80510E8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "runtime/NSObject.mm"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1714"
+            endingLineNumber = "1714"
+            landmarkName = "callAlloc(cls, checkNil)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "D3BA4AAA-3485-4B4A-B3FA-7DFCA80510E8 - 652961bd9fc3d209"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_objc_rootAlloc"
+                  moduleName = "libobjc.A.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xiaofeiguan/Desktop/smoothv/iOS-Programmer/19-%E8%BF%9B%E9%98%B6%E6%95%99%E7%A8%8B/iOS%E9%80%BB%E8%BE%91%E6%95%99%E8%82%B2/iOS%E5%A4%A7%E7%A5%9E%E7%8F%AD/01-alloc%E4%B8%8Einit/01--%E8%AF%BE%E5%A0%82%E4%BB%A3%E7%A0%81/002-objc4-781%E6%BA%90%E7%A0%81/runtime/NSObject.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1714"
+                  endingLineNumber = "1714"
+                  offsetFromSymbolStart = "183">
+               </Location>
+               <Location
+                  uuid = "D3BA4AAA-3485-4B4A-B3FA-7DFCA80510E8 - a627b39c1a810601"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "objc_alloc"
+                  moduleName = "libobjc.A.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xiaofeiguan/Desktop/smoothv/iOS-Programmer/19-%E8%BF%9B%E9%98%B6%E6%95%99%E7%A8%8B/iOS%E9%80%BB%E8%BE%91%E6%95%99%E8%82%B2/iOS%E5%A4%A7%E7%A5%9E%E7%8F%AD/01-alloc%E4%B8%8Einit/01--%E8%AF%BE%E5%A0%82%E4%BB%A3%E7%A0%81/002-objc4-781%E6%BA%90%E7%A0%81/runtime/NSObject.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1714"
+                  endingLineNumber = "1714"
+                  offsetFromSymbolStart = "183">
+               </Location>
+               <Location
+                  uuid = "D3BA4AAA-3485-4B4A-B3FA-7DFCA80510E8 - 6d66d1d595f87641"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "objc_allocWithZone"
+                  moduleName = "libobjc.A.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xiaofeiguan/Desktop/smoothv/iOS-Programmer/19-%E8%BF%9B%E9%98%B6%E6%95%99%E7%A8%8B/iOS%E9%80%BB%E8%BE%91%E6%95%99%E8%82%B2/iOS%E5%A4%A7%E7%A5%9E%E7%8F%AD/01-alloc%E4%B8%8Einit/01--%E8%AF%BE%E5%A0%82%E4%BB%A3%E7%A0%81/002-objc4-781%E6%BA%90%E7%A0%81/runtime/NSObject.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1714"
+                  endingLineNumber = "1714"
+                  offsetFromSymbolStart = "183">
+               </Location>
+               <Location
+                  uuid = "D3BA4AAA-3485-4B4A-B3FA-7DFCA80510E8 - deb08043a840eb39"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "objc_alloc_init"
+                  moduleName = "libobjc.A.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xiaofeiguan/Desktop/smoothv/iOS-Programmer/19-%E8%BF%9B%E9%98%B6%E6%95%99%E7%A8%8B/iOS%E9%80%BB%E8%BE%91%E6%95%99%E8%82%B2/iOS%E5%A4%A7%E7%A5%9E%E7%8F%AD/01-alloc%E4%B8%8Einit/01--%E8%AF%BE%E5%A0%82%E4%BB%A3%E7%A0%81/002-objc4-781%E6%BA%90%E7%A0%81/runtime/NSObject.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1714"
+                  endingLineNumber = "1714"
+                  offsetFromSymbolStart = "183">
+               </Location>
+               <Location
+                  uuid = "D3BA4AAA-3485-4B4A-B3FA-7DFCA80510E8 - 9a5ce6191fd72e16"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "objc_opt_new"
+                  moduleName = "libobjc.A.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xiaofeiguan/Desktop/smoothv/iOS-Programmer/19-%E8%BF%9B%E9%98%B6%E6%95%99%E7%A8%8B/iOS%E9%80%BB%E8%BE%91%E6%95%99%E8%82%B2/iOS%E5%A4%A7%E7%A5%9E%E7%8F%AD/01-alloc%E4%B8%8Einit/01--%E8%AF%BE%E5%A0%82%E4%BB%A3%E7%A0%81/002-objc4-781%E6%BA%90%E7%A0%81/runtime/NSObject.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1714"
+                  endingLineNumber = "1714"
+                  offsetFromSymbolStart = "242">
+               </Location>
+               <Location
+                  uuid = "D3BA4AAA-3485-4B4A-B3FA-7DFCA80510E8 - 5e588ec1ea6e9b47"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[NSObject new]"
+                  moduleName = "libobjc.A.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xiaofeiguan/Desktop/smoothv/iOS-Programmer/19-%E8%BF%9B%E9%98%B6%E6%95%99%E7%A8%8B/iOS%E9%80%BB%E8%BE%91%E6%95%99%E8%82%B2/iOS%E5%A4%A7%E7%A5%9E%E7%8F%AD/01-alloc%E4%B8%8Einit/01--%E8%AF%BE%E5%A0%82%E4%BB%A3%E7%A0%81/002-objc4-781%E6%BA%90%E7%A0%81/runtime/NSObject.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1714"
+                  endingLineNumber = "1714"
+                  offsetFromSymbolStart = "187">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SymbolicBreakpoint">
+         <BreakpointContent
+            uuid = "4B35159E-BCB9-430E-9BB9-273B70D50B75"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = ""
+            moduleName = "">
+            <Locations>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
